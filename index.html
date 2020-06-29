@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+     <!--Intro-->
+<header id="intro" class="start">
+       
+</header>
+     
+
+    <!--game-->
+<main id="game" class="quiz-container hide">
+    <!--timer container-->
+     <section class="container flex-row">
+        
+        <h2 id="countdown"></h2>
+    
+    </section>
+    <section  id="quiz" class="flex-row"  >
+        <section id = "question-section" class="hide"> 
+            <h2 class="question-wrapper" id="questionText"><p></p></h2> 
+            <div class ="responses" id="answers">
+                <div class="answerBtn" ></div> 
+                <div class="answerBtn" ></div> 
+                <div class="answerBtn" ></div>
+                <div class="answerBtn" ></div>
+            </div>
+        </section>   
+    <div id="controls" class="flex-row hide"> 
+  
+        <button id="next-btn" class="next-btn btn hide">Next Question</button>
+    
+    </div>
+</section>
+ 
+
+    <div>
+        <span id="right-answers"></span>
+        <div id="results"></div>
+    </div>
+</main>    
+
+    <!--Highscore Form-->
+<footer class="footer" id="footer">
+ 
+</footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
